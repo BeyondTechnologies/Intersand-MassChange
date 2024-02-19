@@ -34,7 +34,7 @@ function (Fragment, MessageToast, XLSX){
                 aExcesSheetData.forEach((esd, i) => {
                     var oBuilding = this.getView().getModel().getServiceMetadata().dataServices.schema[0].entityType.find(x => x.name === 'ZC_TM_PO_FREIGHTType');
                     var propertyList = ['LineId', 'DocNo' ,'arrival_dt', 'departure_dt', 'quantity', 'wagon'];
-                    var colList = {};
+                    var colList = {}; 
 
                     propertyList.forEach((value, index) => {
                         let property = oBuilding.property.find(x => x.name === value);
