@@ -129,6 +129,21 @@
                             }
                         }
                     }
+                },
+                "sap.ui.viewExtensions": {
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "ResponsiveTableColumnsExtension|ZC_TM_PO_FREIGHT": {
+                            "className": "sap.ui.core.Fragment",
+                            "fragmentName": "csvuploader.ext.fragments.ResponsiveTableColumns",
+                            "type": "XML"
+                        },
+                        "ResponsiveTableCellsExtension|ZC_TM_PO_FREIGHT": {
+                            "className": "sap.ui.core.Fragment",
+                            "fragmentName": "csvuploader.ext.fragments.ResponsiveTableCells",
+                            "type": "XML"
+                        }
+                    },
+                    "sap.suite.ui.generic.template.ObjectPage.view.Details": {}
                 }
             }
         }
